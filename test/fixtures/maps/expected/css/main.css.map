@@ -1,14 +1,1 @@
-{
-	"version": 3,
-	"file": "main.css",
-	"sources": [
-		"main.scss",
-		"vendor/_part.scss"
-	],
-	"sourcesContent": [
-		"@import 'vendor/part';\n",
-		"$color: #eee;\n\n.myclass {\n  background: $color;\n}\n"
-	],
-	"names": [],
-	"mappings": "ACEA,AAAA,QAAQ,AAAC,CACP,UAAU,CAHJ,IAAI,CAIX"
-}
+{"version":3,"sourceRoot":"","sources":["vendor/_part.scss"],"names":[],"mappings":"AAEA,SACE,WAHM","file":"main.css","sourcesContent":["$color: #eee;\n\n.myclass {\n  background: $color;\n}\n"]}

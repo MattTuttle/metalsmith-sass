@@ -7,7 +7,7 @@
       join = require('path').join,
       metalsmith = require('metalsmith'),
       rm = require('rimraf'),
-      types = require('node-sass').types,
+      types = require('sass').types,
       sass = require('..'),
       equal = require('assert-dir-equal');
 
@@ -27,7 +27,7 @@
       each(dirsToClean, rm, done);
     });
 
-    it('should expose node-sass types', function() {
+    it('should expose sass types', function() {
       assert.equal(sass.types, types);
     });
 
